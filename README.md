@@ -3,9 +3,9 @@
 A simple script to launch MorphOS in your x86_64 PC.
 
 ## Dependencies
- - Obviously: QEMU
- - Also, quite obviously: Interpreter SH
- - Not so obvious: MorphOS ISO, obtained directly from the official website
+ - Obviously: QEMU System PPC
+ - Also, quite obviously: Interpreter SH (Bash/ZSH/sh)
+ - Not so obvious: MorphOS ISO, obtained directly from the [official website](https://morphos-team.net/)
 
 ## Features
 - Create a hard disk for MorphOS
