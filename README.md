@@ -1,5 +1,5 @@
 # QEMU Script
-## A Simple repo with scripts to launch exotics systems with QEMU
+## A repo with simplified scripts to launch exotics systems with QEMU
 A repository that groups scripts to emulate exotic operating systems powered by QEMU.
 
 Each folder is dedicated to an OS with the respective execution instructions, if you want to make a pull request from your system, please keep the pattern.
