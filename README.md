@@ -1,6 +1,8 @@
-# MorphOS QEMU Script
+# QEMU Script
 ## A Simple SH to launch MorphOS with QEMU
-A simple script to launch MorphOS in your x86_64 PC.
+Um repositório que agrupa scripts para execução de sistemas operacionais exóticos pelo QEMU
+
+Cada pasta está dedicada a um SO com as respectivas intruções de execução, caso queira fazer um pull request do seu sistema, favor manter o padrão dos arquivos. 
 
 ## Dependencies
  - Obviously: QEMU System PPC
@@ -8,15 +10,15 @@ A simple script to launch MorphOS in your x86_64 PC.
  - Not so obvious: MorphOS ISO, obtained directly from the [official website](https://morphos-team.net/)
 
 ## Features
-- Create a hard disk for MorphOS
-- Boot from CD
-- Boot from HD
-- Boot from HD with graphical acceleration
+- MorphOS System
+- TempleOS System
 
 ## Variables
-In the morphos.sh script you will find some variables, they indicate:
-- QEMU_PPC_BIN => binary of QEMU to emulate 32-bit Power PC location
-- MORPHOS_IMAGE => MorphOS downloaded ISO location
-- TOTAL_MEMORY => Free memory for QEMU in megabytes  (I recommend 2048)
+In the scripts you will find some variables, they indicate:
+- QEMU_BIN => binary of QEMU to emulate the system
+- SYSTEM_IMAGE => runnable system image
+- TOTAL_MEMORY => Free memory for QEMU in megabytes  
 
-Now you can try the better OS after linux.
+* This variables are the default, but can be extended system by sytem
+
+Now you can try the better OSs after Linux.
