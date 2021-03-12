@@ -1,11 +1,11 @@
 # QEMU Script
-## A Simple SH to launch MorphOS with QEMU
-Um repositório que agrupa scripts para execução de sistemas operacionais exóticos pelo QEMU
+## A Simple repo with scripts to launch exotics systems with QEMU
+A repository that groups scripts to emulate exotic operating systems powered by QEMU.
 
-Cada pasta está dedicada a um SO com as respectivas intruções de execução, caso queira fazer um pull request do seu sistema, favor manter o padrão dos arquivos. 
+Each folder is dedicated to an OS with the respective execution instructions, if you want to make a pull request from your system, please keep the pattern.
 
 ## Dependencies
- - Obviously: QEMU System PPC
+ - Obviously: QEMU
  - Also, quite obviously: Interpreter SH (Bash/ZSH/sh)
  - Not so obvious: MorphOS ISO, obtained directly from the [official website](https://morphos-team.net/)
 
