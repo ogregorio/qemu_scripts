@@ -33,7 +33,7 @@ $QEMU_x86_VIRGIL -machine kernel_irqchip=off -boot d -enable-kvm -soundhw pcspk 
 #Function to create a RAW virtual Hard Disk
 CreateIMG() {
 echo "Creating a HaikuOS disk..."
-qemu-img create -f qcow haiku.raw $1 && echo 'Created with success!'
+qemu-img create -f raw haiku.raw $1 && echo 'Created with success!'
 }
 
 #Help function
