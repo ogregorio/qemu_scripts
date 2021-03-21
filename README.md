@@ -7,11 +7,12 @@ Each folder is dedicated to an OS with the respective execution instructions, if
 ## Dependencies
  - Obviously: QEMU
  - Also, quite obviously: Interpreter SH (Bash/ZSH/sh)
- - Not so obvious: MorphOS ISO, obtained directly from the [official website](https://morphos-team.net/)
+ - Not so obvious: ISO, obtained directly from the official systems websites (more inside systems README)
 
 ## Features
 - MorphOS System
 - TempleOS System
+- HaikuOS System
 
 ## Variables
 In the scripts you will find some variables, they indicate:
