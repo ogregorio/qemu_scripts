@@ -24,7 +24,7 @@ $QEMU_x86_BIN -machine kernel_irqchip=off -boot d -enable-kvm -soundhw pcspk -sm
 }
 
 #Function to boot from virtual Hard Disk with Virgil
-BootHD() {
+BootHDGPU() {
 echo "Booting haiku from HD..."
 $QEMU_x86_VIRGIL -machine kernel_irqchip=off -boot d -enable-kvm -soundhw pcspk -smp 3 -m $TOTAL_MEMORY -hda haiku.raw
 
@@ -48,6 +48,6 @@ case $1 in
 "--create-img") CreateIMG $2 ;;
 "--boot-cd") BootCD ;;
 "--boot-hd") BootHD ;;
-"--boot-hd-gpu") BootHD ;;
+"--boot-hd-gpu") BootHDGPU ;;
 "--help") Help;;
 esac
