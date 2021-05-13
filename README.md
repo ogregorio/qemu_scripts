@@ -20,6 +20,6 @@ In the scripts you will find some variables, they indicate:
 - SYSTEM_IMAGE => runnable system image
 - TOTAL_MEMORY => Free memory for QEMU in megabytes  
 
-* This variables are the default, but can be extended system by sytem
+* This variables are the default, but can be extended system by system
 
 Now you can try the better OSs after Linux.
